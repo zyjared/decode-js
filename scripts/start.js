@@ -7,7 +7,7 @@ const config = {
     srcDir: './input',
     destDir: './output',
     extensions: ['.html'],
-    contentReg: /var\s+\w+\s*=\s*'jsjiami\.com\.v7';[\s\S]*?var\s+version_\s*=\s*'jsjiami\.com\.v7';/ // 合并匹配范围
+    contentReg: /var\s+\w+\s*=\s*'jsjiami\.com\.v7';[\s\S]*?var\s+version_\s*=\s*'jsjiami\.com\.v7';/
 }
 
 // 提取标签间内容
